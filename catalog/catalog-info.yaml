@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: hello-fun
+  name: spring-cloud-serverless
   description: Hello Fun
   tags:
     - app-accelerator
@@ -11,7 +11,7 @@ metadata:
     - serverless
     - tanzu
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=hello-fun'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-cloud-serverless'
 spec:
   type: service
   lifecycle: experimental
